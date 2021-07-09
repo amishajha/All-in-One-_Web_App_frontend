@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Amatic+SC:wght@700&family=Staatliches&display=swap");
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.register__container {
+  width: 390px;
+  margin-top: 10px;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+  padding: 30px;
+}
+
+.register__container > h1 {
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-family: "Akaya Kanadaka", cursive;
+  font-style: bold;
+  font-size: 36px;
+}
+
+.register__container > form > h5 {
+  margin-bottom: 4px;
+  font-size: 23px;
+  font-family: "Akaya Kanadaka", cursive;
+  font-style: bold;
+  font-weight: 700;
+  color: black;
+}
+.register__container > form > input {
+  height: 40px;
+  margin-bottom: 5px;
+  background-color: white;
+  width: 90%;
+  border-radius: 12px;
+}
+
+.login__signInButton {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  border-radius: 9px;
+  width: 160px;
+  height: 40px;
+  border: 1px solid;
+  margin-top: 19px;
+  font-family: "Akaya Kanadaka", cursive;
+  border-color: black;
+  font-size: 25px;
+  margin-left: 107px;
+  color: white;
+}
+
+.login__signInButton:hover {
+  background: white;
+  color: black;
+  border-radius: 33px;
+}
+.login__registerButton {
+  border-radius: 9px;
+  width: 180px;
+  height: 43px;
+  border: 1px solid;
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-left: 10px;
+  border-color: black;
+  color: white;
+  font-style: bold;
+  font-size: 23px;
+  font-family: "Akaya Kanadaka", cursive;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+.login__registerButton:hover {
+  background: white;
+  color: black;
+  border-radius: 33px;
+}
+@media only screen and (max-width: 600px) {
+  .register__container {
+    width: 380px;
+  }
+}

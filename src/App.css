@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Amatic+SC:wght@700&family=Staatliches&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+
+  justify-content: center;
+  width: 100vw;
+  height: 110vh;
+  align-items: center;
+}
+.footer {
+  margin-top: 94px;
+  color: white;
+  font-family: "Akaya Kanadaka", cursive;
+  text-align: center;
+}
+
+.footer span {
+  color: black;
+  font-style: bold;
+}
+.footer p {
+  font-size: 25px;
+}
