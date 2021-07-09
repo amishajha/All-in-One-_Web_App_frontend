@@ -82,7 +82,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ![Screenshot (13)](https://user-images.githubusercontent.com/63840354/125094086-95818b80-e0f0-11eb-9011-4adf0e603f40.png)\
 
-![news](https://user-images.githubusercontent.com/63840354/125094589-05901180-e0f1-11eb-82cd-7353401824b8.jpg)
+###news
+
+
 
 
 
